@@ -5,5 +5,12 @@ package rrd.services;
  */
 public class Attachment
 {
-
+	/**
+	 * The unique identifier for the attachment
+	 */
+	public String attachmentId;
+	/**
+	 * The file name
+	 */
+	public String fileName;
 }
