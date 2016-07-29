@@ -1,6 +1,9 @@
 package rrd.services;
 import java.util.List;
 
+/**
+ * Represents a line item on an Order
+ */
 public class OrderLine 
 {
 	/**
@@ -28,7 +31,7 @@ public class OrderLine
 	 */
 	public String ExternalOrderNumber;
 	/**
-	 * Attachments/documents associated to the order line
+	 * The address and quantity
 	 */
-	public List<Attachment> attachments;
+	public List<OrderAddress> orderAddresses;
 }

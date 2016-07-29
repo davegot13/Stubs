@@ -17,4 +17,16 @@ public class Product
 	 * The supplier of the product
 	 */
 	public Supplier productSupplier;
+	/**
+	 * Color
+	 */
+	public String color;
+	/**
+	 * Product category
+	 */
+	public String category;
+	/**
+	 * WCSS product number
+	 */
+	public String WCSSCustomerItemNumber;
 }

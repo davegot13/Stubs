@@ -1,7 +1,7 @@
 package rrd.services;
 
 /**
- * Represents an attachment/document as part of an Order
+ * Represents an attachment/document that will be sent to document storage
  */
 public class Attachment
 {
@@ -13,4 +13,8 @@ public class Attachment
 	 * The file name
 	 */
 	public String fileName;
+	/**
+	 * Order/Estimate identifier, might not be known at time of initial upload
+	 */
+	public String orderId;
 }
